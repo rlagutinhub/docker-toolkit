@@ -41,8 +41,8 @@ RUN set -ex && apk add --no-cache \
     tzdata \
     python3 \
     py3-pip \
-    ipython \
-    && echo "PS1='\e[92m\u\e[0m@\e[94m\h\e[0m:\e[35m\w\e[0m# '" >> /root/.bashrc
-ENV TERM=xterm-256color \
+    ipython
+ENV PS1='\e[92m\u\e[0m@\e[94m\h\e[0m:\e[35m\w\e[0m# ' \
+    TERM=xterm-256color \
     TZ=Europe/Moscow
 CMD ["/bin/bash"]

@@ -1,7 +1,6 @@
 # docker build -f Dockerfile -t toolkit . # size 206MB
 # docker run --rm -it toolkit:latest
 # kubectl -n default run toolkit --rm -it --image=toolkit:latest
-
 ARG ALPINE_TAG=latest
 FROM alpine:${ALPINE_TAG}
 LABEL maintainer="Roman Lagutin <r@lag.net.ru>"

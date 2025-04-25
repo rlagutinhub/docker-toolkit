@@ -46,4 +46,5 @@ RUN set -ex && apk add --no-cache \
 ENV PS1='\e[92m\u\e[0m@\e[94m\h\e[0m:\e[35m\w\e[0m# ' \
     TERM=xterm-256color \
     TZ=Europe/Moscow
+WORKDIR /root
 CMD ["/bin/bash"]

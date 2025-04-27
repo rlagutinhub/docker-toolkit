@@ -1,4 +1,4 @@
-# docker_toolkit
+# docker toolkit
 
 ```
 docker build -f Dockerfile -t toolkit . # size ~200MB

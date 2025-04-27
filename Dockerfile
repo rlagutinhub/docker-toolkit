@@ -33,9 +33,9 @@ RUN set -ex && apk add --no-cache \
     zip \
     unzip \
     jq \
+    git \
     lsof \
     procps \
-    git \
     htop \
     gotop \
     tzdata \
